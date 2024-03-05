@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 30px;
+  height: auto; /* Maintain aspect ratio */
+}
+h2 {
+  margin-top: 20px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+li:before {
+  content: "\2022 "; /* Replace with desired bullet character */
+  margin-right: 10px;
+}
